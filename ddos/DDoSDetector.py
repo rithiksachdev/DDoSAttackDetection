@@ -4,7 +4,6 @@ import os
 from data_handler import DataHandler
 from ANN import ANN
 
-
 class DDoSDetector:
 
 	data_handler = None
