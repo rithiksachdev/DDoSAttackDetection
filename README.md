@@ -1,15 +1,17 @@
 # Project : Detection of DDoS Attacks through Machine Learning
 
 
-Team Members:
-Rithik Sachdev
-Shreya Mishra
-Aarushi Ghadiya
-Shekhar Sharma
+# Team Members:
+<br />
+<br />Rithik Sachdev
+<br />Shreya Mishra
+<br />Aarushi Ghadiya
+<br />Shekhar Sharma
 
-Project Guides:
-Prof. Vandan Tewari
-Prof. Veerendra Shrivastav
+# Project Guides:
+<br />
+<br />Prof. Vandan Tewari
+<br />Prof. Veerendra Shrivastav
 
 
 # What are DDoS attacks?
