@@ -2,14 +2,12 @@
 
 
 # Team Members:
-<br />
 <br />Rithik Sachdev
 <br />Shreya Mishra
 <br />Aarushi Ghadiya
 <br />Shekhar Sharma
 
 # Project Guides:
-<br />
 <br />Prof. Vandan Tewari
 <br />Prof. Veerendra Shrivastav
 
