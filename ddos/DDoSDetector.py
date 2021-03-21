@@ -16,16 +16,14 @@ class DDoSDetector:
 
 
 
-	def train(self, dataset_index, pcap_index=None):
+	def train(self, dataset_index):
 		print("Dataset: "+str(self.data_handler.get_dataset_path(dataset_index)))
-		if pcap_index!=None:
-			print("PCAP: "+str(self.data_handler.get_pcap_path(dataset_index, pcap_index)))
-
+		
 		packets = []
 		labels = []
 
-		packets = self.data_handler.get_packet_information(dataset_index, pcap_index)
-		labels = self.data_handler.get_labels(dataset_index, pcap_index)
+		packets = self.data_handler.get_packet_information(dataset_index)
+		labels = self.data_handler.get_labels(dataset_index)
 
 		compressed_packets = self.data_handler.compress_packets(packets)
 
@@ -44,7 +42,7 @@ if __name__=="__main__":
 	DDoS_detector = DDoSDetector()
 
 
-	DDoS_detector.train(dataset_index=1, pcap_index=None)
+	DDoS_detector.train(dataset_index=1)
 
 
 	
